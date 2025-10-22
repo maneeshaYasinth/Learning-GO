@@ -16,7 +16,7 @@ func careaOfCircle() {
 	const pi = 3.14
 	var radius float64 = 5
 	area := pi * radius * radius
-	fmt.Println("Area of a circle = ", area)
+	fmt.Printf("Area of a circle = %.2f\n", area) //use the decimal format, .2f to limit to 2 decimal places and should use Printf
 }
 
 func dataTypes() {
