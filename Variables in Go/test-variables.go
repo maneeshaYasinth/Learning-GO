@@ -10,6 +10,15 @@ func mathsOps() {
 	fmt.Println(10 / 4)
 }
 
+//using  const to calculate area of circle
+
+func careaOfCircle() {
+	const pi = 3.14
+	var radius float64 = 5
+	area := pi * radius * radius
+	fmt.Println("Area of a circle = ", area)
+}
+
 func dataTypes() {
 	var name string = "maneeesha"
 	var a int = 2
@@ -41,4 +50,5 @@ func dataTypes() {
 func main() {
 	mathsOps()
 	dataTypes()
+	careaOfCircle()
 }
